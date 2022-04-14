@@ -1,0 +1,10 @@
+I am from test11.html <br>
+<script>
+test();
+function test()
+{
+	alert('i am from func');
+	}
+	test();
+	test();
+</script>

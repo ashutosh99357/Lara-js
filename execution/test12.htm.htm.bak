@@ -1,0 +1,9 @@
+<script>
+test();
+test(123);
+test('hello');
+funtion test(arg0)
+{
+	alert("from test:" + arg0);
+}
+</script>

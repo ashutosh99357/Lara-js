@@ -1,0 +1,10 @@
+i amfrom test11.htm
+<script>
+test();
+test(123);
+test('hello');
+function test(arg0)
+{
+	alert("from test:" + arg0);
+}
+</script>

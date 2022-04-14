@@ -1,0 +1,14 @@
+<script>
+var i
+alert(typeof i)
+var j =  10  
+alert(typeof i) //number
+var k = 1.5
+alert(typeof i) //number
+var t = "ashu"
+alert(typeof i) //string
+var = false
+alert(typeof i) //boolean
+var r = null
+alert(typeof i) //object
+</script>

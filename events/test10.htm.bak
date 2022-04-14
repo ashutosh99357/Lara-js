@@ -1,0 +1,1 @@
+<input type='text' onblur = "alert ('focus is leaving')">

@@ -1,0 +1,23 @@
+<form action = "success.html">
+Parameter1 : <input type="text" name = "param1"/> <br>
+Parameter2 : <input type="text" name = "param2"/> <br>
+<input type="submit" value = "submit" onclick="return validate()"/> 
+</form>
+<script>
+function validate()
+{
+	if(document.forms[0].param1.value.length == 0)
+	{
+		alert("enter  param1")
+		document.forms[0].param1.focus() // this focues the entry point of the form
+		return false
+	}
+	if(document.forms[0].param2.value.length == 0)
+	{
+		alert("enter  param2")
+			document.forms[0].param2.focus()
+		return false
+	}
+	return true
+}
+</script>
